@@ -62,10 +62,10 @@ def load_data_from_csv(path='fitness_data.csv'):
     # X tensors should be float32, y tensors should be long
 
     # Placeholder return values to prevent errors
-    X_train = torch.empty((0, 5), dtype=torch.float32)  #---> change the value according to you needed dummy values provied
-    y_train = torch.empty((0,), dtype=torch.long)       #---> change the value according to you needed dummy values provied
-    X_test = torch.empty((0, 5), dtype=torch.float32)   #---> change the value according to you needed dummy values provied
-    y_test = torch.empty((0,), dtype=torch.long)        #---> change the value according to you needed dummy values provied
+    X_train = torch.empty((0, 5), dtype=torch.float32)  #---> change the value according to you needs dummy values provied
+    y_train = torch.empty((0,), dtype=torch.long)       #---> change the value according to you needs dummy values provied
+    X_test = torch.empty((0, 5), dtype=torch.float32)   #---> change the value according to you needs dummy values provied
+    y_test = torch.empty((0,), dtype=torch.long)        #---> change the value according to you needs dummy values provied
     return X_train, y_train, X_test, y_test
 
 
